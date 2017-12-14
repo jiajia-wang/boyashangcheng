@@ -209,3 +209,16 @@
 	font-size: 30px;
 	padding: 3% 0px;
 }
+/*博雅投资者*/
+#bytz{
+	max-width:1000px ;
+	margin: 30px auto;
+}
+#bytz h1{
+	border-bottom: 1px solid #C7D7E5;
+	padding-bottom: 1.8%;
+}
+#bytz h3{
+	padding: 2% 0px;
+	color: deeppink;
+}

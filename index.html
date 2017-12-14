@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>boya首页</title>
+		<title>博雅首页</title>
 		<style type="text/css">
 	      *{
 	      	margin: 0;
@@ -287,61 +287,12 @@
 	     	color: #FFFFFF;
 	     	text-indent: 2em;
 	     }
-	     #kefu{
-	     	width: 1100px;
-	     	height: 500px;
-	     	background: url(images/kefu.jpg) no-repeat center;
-	     	margin-left: 398px;
-	     	margin-top: 50px;
-	     	position: relative;
-	     	background-attachment: fixed;
-	     }
-	     #kefu table{
-	     	position: absolute;
-	     	left: 274px;
-	     	top: 125px;
-	     }
-	     #kefu h1{
-	     	text-align: center;
-	     	padding-top: 39px;
-	     	color: red;
-	     }
-	     #kefu .kf-t{
-	     	padding: 63px 50px 10px 60px;
-	     	background: url(images/kf1.png) top center no-repeat;
-	     }
-	     #kefu .kf-t1{
-	     	padding: 63px 50px 10px 60px;
-	     	background: url(images/kf2.png) top center no-repeat;
-	     }
-	     #kefu .kf-t2{
-	     	padding: 63px 50px 10px 60px;
-	     	background: url(images/kf3.png) top center no-repeat;
-	     }
-	     #kefu .kf-x{
-	     	font-size: 30px;
-	     	font-style: italic;
-	     	color: lightcoral;
-	     }
-	     #touzi{
-	     	width: 1100px;
-	     	height: 500px;
-	     	margin: 50px auto;
-	     	background: lavender;
-	     	
-	     }
-	     #touzi h1{
-	     	padding: 10px 40px;
-	     	color: lightsalmon;
-	     }
-	     #touzi p{
-	     	padding: 3px 40px;
-	     }
 		</style>
 		<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
 		<link rel="stylesheet" type="text/css" href="js/swiper.min.js"/>
 	</head>
 	<body>
+		<!--头部-->
 		<div id="top">
 			<div class="wp">
 			<div class="z">
@@ -362,72 +313,77 @@
 			</div>
 		</div>
 		<div class="cl"></div>
+		<!--轮播图-->
 		<!--<div id="ad">-->
 		<div class="swiper-container">
-    <div class="swiper-wrapper">
-        <div class="swiper-slide">
-        	<img src="images/banner.jpg"/>
-        </div>
-        <div class="swiper-slide">
-        	<img src="images/ad1.jpg"/>
-        </div>
-        <div class="swiper-slide">
-        	<img src="images/ad2.jpg"/>
-        </div>
-        <div class="swiper-slide">
-        	<img src="images/ad4.jpg"/>
-        </div>
-    </div>
-    <!-- 如果需要分页器 -->
-    <div class="swiper-pagination swiper-pagination-white"></div>
-    
-    <!-- 如果需要导航按钮 -->
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
-    
-    <!-- 如果需要滚动条 -->
-   <!-- <div class="swiper-scrollbar"></div>-->
-</div>
-   <!--js加载-->
-<script src="js/swiper.min.js"></script>
-<script type="text/javascript">
-	 var mySwiper = new Swiper ('.swiper-container', {
-    loop: true,    //循环播放
-    autoplay:1000,
-    autoplayDisableOnInteraction:false,//继续轮播
-    speed:1000, //轮播速度
-    // 如果需要分页器
-    pagination: '.swiper-pagination',
-    paginationClickable:true, //分页能否被点击
-    // 如果需要前进后退按钮
-    nextButton: '.swiper-button-next',
-    prevButton: '.swiper-button-prev'
-    
-    // 如果需要滚动条
-//  scrollbar: '.swiper-scrollbar',
-  })     
-</script><!--</div>-->
+    		<div class="swiper-wrapper">
+	        <div class="swiper-slide">
+	        	<img src="images/banner.jpg"/>
+	        </div>
+	        <div class="swiper-slide">
+	        	<img src="images/ad1.jpg"/>
+	        </div>
+	        <div class="swiper-slide">
+	        	<img src="images/ad2.jpg"/>
+	        </div>
+	        <div class="swiper-slide">
+	        	<img src="images/ad4.jpg"/>
+	        </div>
+    	</div>
+	    <!-- 如果需要分页器 -->
+	    <div class="swiper-pagination swiper-pagination-white"></div>
+	    
+	    <!-- 如果需要导航按钮 -->
+	    <div class="swiper-button-prev"></div>
+	    <div class="swiper-button-next"></div>
+	    
+	    <!-- 如果需要滚动条 -->
+	   <!-- <div class="swiper-scrollbar"></div>-->
+		</div>
+	   <!--js加载-->
+		<script src="js/swiper.min.js"></script>
+		<script type="text/javascript">
+			 var mySwiper = new Swiper ('.swiper-container', {
+		    loop: true,    //循环播放
+		    autoplay:1000,
+		    autoplayDisableOnInteraction:false,//继续轮播
+		    speed:1000, //轮播速度
+		    // 如果需要分页器
+		    pagination: '.swiper-pagination',
+		    paginationClickable:true, //分页能否被点击
+		    // 如果需要前进后退按钮
+		    nextButton: '.swiper-button-next',
+		    prevButton: '.swiper-button-prev'
+		    
+		    // 如果需要滚动条
+		//  scrollbar: '.swiper-scrollbar',
+		  })     
+		</script>
 		<br />
 		<br />
 		<br />
+		<!--游戏-->
 		<div class="wp">
-		<div class="tu">
-			<img src="images/pro1.jpg" alt="" /><br />
-			<p class="p1">BPT宣传片</p>
-			<p class="p2"><a href="#">点击播放</a> </p>
-		</div>
-		<div class="tu1"><img src="images/pro2.jpg" alt="" /><br />
-		<p class="p1">博雅互动宣传视频</p>
-		<p class="p2"><a href="#">点击播放</a></p>
-		</div>
-		<div class="tu2"><img src="images/pro3.jpg" alt="" /><br />
-		<p class="p1">斗地主</p>
-		<p class="p2"><a href="#">LANDLORDS</a></p>
-		</div>
-		<div class="tu3"><img src="images/pro4.jpg" alt="" /><br />
-		<p class="p1">德州扑克</p>
-		<p class="p2"><a href="#">TEXAS HOLDEM POKER</a></p>
-		</div>
+			<div class="tu">
+				<img src="images/pro1.jpg" alt="" /><br />
+				<p class="p1">BPT宣传片</p>
+				<p class="p2"><a href="#">点击播放</a> </p>
+			</div>
+			<div class="tu1">
+				<img src="images/pro2.jpg" alt="" /><br />
+				<p class="p1">博雅互动宣传视频</p>
+				<p class="p2"><a href="#">点击播放</a></p>
+			</div>
+			<div class="tu2">
+				<img src="images/pro3.jpg" alt="" /><br />
+				<p class="p1">斗地主</p>
+				<p class="p2"><a href="#">LANDLORDS</a></p>
+			</div>
+			<div class="tu3">
+				<img src="images/pro4.jpg" alt="" /><br />
+				<p class="p1">德州扑克</p>
+				<p class="p2"><a href="#">TEXAS HOLDEM POKER</a></p>
+			</div>
 		</div>
 		<br />
 		<br />
@@ -445,99 +401,47 @@
 			</div>
 		</div>
 		<br /><br /><br /><br />
+		<!--新闻-->
 		<div id="nei">
-		<div class="wp">
-			<div class="left z">
-				<div class="more">
-					<img src="images/more1.png"/>
-				</div>
-				<ul>
-					<li><span>09/28</span> <a href="#">2015博雅国际扑克大赛</a></li>
-					<hr />
-					<li><span>08/26</span> <a href="#">2015bpt博雅国际扑克大赛</a></li>
-					<hr />
-					<li><span>07/14</span> <a href="#">2015博雅国际扑克大赛</a></li>
-					<hr />
-					<li><span>06/12</span> <a href="#">2015博雅国际扑克大赛</a></li>
-				    <hr />
-				</ul>
-			</div>
-			<div class="right y">
-				<div class="more1">
-					<img src="images/more2.png"/>
-				</div>
-				<ul>
-					<li class="a"><h2>专场招聘</h2>
-						<p>BOYAA JOBS</p>
-				 </li>
-					<li class="b"><h5>专场招聘岗位：</h5></li>
-					<li class="b"><a href="#">PHP开发工程师</a></li>
-				    <li><hr /></li>
-					<li class="b"><a href="#">c++开发工程师</a></li>
-					<li><hr /></li>
-					<li class="b"><a href="#">web前端开发工程师</a></li>
-					<li><hr /></li>
-					<li class="b"><a href="#">大数据开发工程师</a></li>
-					<li>
-						<hr />
-					</li>
-				    
-				</ul>
-				
-			</div>
-			</div>
-			
-		</div>
-		<div class="cl"></div>
-		<div id="guanyu">
 			<div class="wp">
-			<div class="gy-tu z">
-				<img src="images/800.jpg"/>
-			</div>
-			<div class="gy-xin y">
-				<h3>关于我们</h3>
-				<p>
-					公司自成立以来，始终处于稳健高速的发展状态，在持续巩固国内市场的同时，积极拓展海外市场；博雅互动共有员工近400名，平均年龄在25岁。其中技术研发人员占80%，作为年轻的互联网企业，公司在迅速的发展壮大，更多的产品在不断研发，更多的业务在不断拓展，博雅互动正身处于互联网最有趣、最有前景的行业。
-				    博雅互动将依托现有的平台以及资源，整合产业价值链，开发更多的业务领域，成为一家立足社交网络应用的游戏公司，将公司产品覆盖到国外，努力开发更多具有国际化水平的业务应用，成为游戏行业的领跑者。
-				</p>
-			</div>
-			</div>
+				<div class="left z">
+					<div class="more">
+						<img src="images/more1.png"/>
+					</div>
+					<ul>
+						<li><span>09/28</span> <a href="#">2015博雅国际扑克大赛</a></li>
+						<hr />
+						<li><span>08/26</span> <a href="#">2015bpt博雅国际扑克大赛</a></li>
+						<hr />
+						<li><span>07/14</span> <a href="#">2015博雅国际扑克大赛</a></li>
+						<hr />
+						<li><span>06/12</span> <a href="#">2015博雅国际扑克大赛</a></li>
+					    <hr />
+					</ul>
+				</div>
+				<div class="right y">
+					<div class="more1">
+						<img src="images/more2.png"/>
+					</div>
+					<ul>
+						<li class="a"><h2>专场招聘</h2>
+							<p>BOYAA JOBS</p>
+					    </li>
+						<li class="b"><h5>专场招聘岗位：</h5></li>
+						<li class="b"><a href="#">PHP开发工程师</a></li>
+					    <li><hr /></li>
+						<li class="b"><a href="#">c++开发工程师</a></li>
+						<li><hr /></li>
+						<li class="b"><a href="#">web前端开发工程师</a></li>
+						<li><hr /></li>
+						<li class="b"><a href="#">大数据开发工程师</a></li>
+						<li><hr /></li> 
+					</ul>
+				</div>
+		    </div>
 		</div>
 		<div class="cl"></div>
-		<div id="kefu">
-			<h1>客服中心:</h1>
-			<table border="0" cellspacing="0" cellpadding="0">
-				<tr>
-					<td class="kf-t">客服电话</td>
-					<td class="kf-x">400-633-1888</td>
-				</tr>
-				<tr>
-					<td class="kf-t1">在线客服</td>
-					<td class="kf-x">在线人工服务</td>
-				</tr>
-				<tr>
-					<td class="kf-t2">客服邮箱</td>
-					<td class="kf-x">kefu@boyaa.com</td>
-				</tr>
-			</table>
-		</div>
-		<div id="touzi">
-			<h1>投资者查询</h1>
-			<p>深圳总部</p>
-    		<p>地址：深圳市南山区中山园路1001号TCL产业园国际E城D3栋9B-C</p>
-			<p>邮编：518000</p>
-			<p>电邮：investor@boyaa.com</p>
-			<p>电话：86 755-8638 7078 </p>
-			<br /><br />
-			<p>香港办事处</p>
-			<p>地址：香港铜锣湾勿地臣街1号时代广场二座36楼
-			<br /><br />
-			<p>金通策略有限公司</p>
-			<p>地址：香港中环干诺道中88号南丰大厦9楼906室</p>
-			<p>电邮：ir@dlkadvisory.com</p>
-			<p>电话：(852) 2857-7101</p>
-			<p>传真：(852) 2857-7103</p>
-		</div>
+		<!--尾部-->
 		<br />
 		<div id="footer">
 			<a href="#top"><div class="g">
