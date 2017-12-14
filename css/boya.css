@@ -1,0 +1,211 @@
+  *{
+  	margin: 0;
+  	padding: 0;
+  }
+  .wp{
+  	width: 1000px;
+  	margin: 0 auto;
+  }
+  .z{float:left;}
+  .y{float: right;}
+  .cl{clear: both;}
+  .img{border:none;}
+  /*博雅游戏头部*/
+  #top{
+  	width: 100%;
+  	height: 58px;
+  	position: fixed;
+  	left: 0px;
+  	top: 0px;
+  	z-index: 9999;
+  	background: #191d3a;
+  }
+  .nav{
+  	width: 100%;
+  	height: 58px;
+  }
+  .nav li{
+  	list-style: none;
+  	float: left;
+  	line-height: 58px;
+  	padding: 0 25px;
+  	cursor: pointer;
+  }
+  .nav a{
+  	color: white;
+  	text-decoration: none;
+  }
+  .nav li.a,.nav li:hover{
+  	background: url("images/02.jpg")repeat-x;
+  }
+  .o{
+  	float: right;
+  	margin-top: 15px;
+  }
+  /*博雅游戏banner*/
+ #ad{
+ 	width: 100%;
+ }
+ /*博雅游戏主体*/
+#byyx{
+	margin-top: 50px;
+}
+#byyx .wp{
+	width: 1260px;
+}
+#byyx .wp h2{
+	padding-bottom: 10px;
+}
+#byyx .wp figure{
+	width: 350px;
+	height: 330px;
+	border: 2px solid #e9e9ea;
+	border-radius: 5px;
+	margin-top: 30px;
+	background: #f3f3f2;
+	margin-right: 66px;
+	float: left;
+}
+#byyx .wp figure p{
+	height: 30px;
+	line-break: 30px;
+	text-align: center;
+	padding-top: 10px;
+}
+#byyx .wp figure img{
+	padding: 10px;
+}
+#byyx figure .byyx-1 p{
+	background: url(../images/yx-1.png) 214px center no-repeat;
+}
+/*博雅新闻尾部*/
+#footer{
+ 	height: 82px;
+ 	background: #181C3A;
+ 	position: relative;
+ 	margin-top: 30px;
+ }
+ #footer p{
+ 	color: white;
+ }
+ #footer .l{
+ 	margin-top: 29px;
+ 	
+ }
+ #footer .l p{
+ 	font-size: 13px;
+ }
+ #footer .r{
+ 	margin-top: 29px;
+ 	
+ }
+ #footer .r p{
+ 	margin-right: 45px;
+ 	font-size: 13px;
+ }
+ .#footer .r .x{
+ 	margin-right: 40px;
+ 	font-size: 14px;
+ }
+ #footer .r img{
+ 	width: 32px;
+ 	height: 40px;
+ 	margin-top: -26px;
+ 	margin-left: 45px;
+ }
+ .k{
+ 	float: right;
+  	margin-top: 15px;
+ }
+ .g{
+ 	width: 70px;
+ 	height: 30px;
+ 	background: #c7d6e5;
+ 	position: absolute;
+ 	right: 292px;
+ 	bottom: 66px;
+ 	border-radius: 5px;
+ 	text-align: center;
+ 	line-height: 30px;
+ }
+ #footer a{
+ 	color: ghostwhite;
+ }
+ /*博雅新闻主体*/
+#news{
+	max-width: 1300px;
+	margin: 30px auto;
+}
+#news h1{
+	border-bottom: 1px solid #C7D7E5;
+	padding-bottom: 1.8%;
+}
+#news .left{
+	width: 75%;
+	float: left;
+}
+#news .left ul li{
+	list-style: none;
+	padding: 15px 0px 15px 0px;
+}
+#news .left ul li a{
+	text-decoration: none;
+	color: #000;
+}
+#news .left ul li a:hover{
+	color: lightcoral;
+}
+#news .left span{
+	color: #AFBFCF;
+	float: right;
+	font-size: 13px;
+}
+#news .right{
+	width: 23%;
+	float: right;
+	border-left: 1px solid #C7D7E5;
+}
+#news p{
+	text-align: center;
+	padding: 8% 0px;
+}
+#news p a{
+	text-decoration: none;
+	color: #000;
+}
+#news p  a:hover{
+	color: lime;
+}
+#news img{
+	margin-left:12% ;
+	border-radius: 5px;
+}
+/*博雅客服中心的主体*/
+#bywm{
+	max-width: 1300px;
+	margin: 30px auto;
+}
+#bywm h1{
+	border-bottom: 1px solid #C7D7E5;
+	padding-bottom: 1.8%;
+}
+#bywm figure{
+	width: 32%;
+	height: 255px;
+	border-radius: 5px;
+	background: #f1f1f1;
+	margin: 6% 1% 0px 0px;
+	float: left;
+}
+#bywm img{
+	width: 30%;
+	margin: 1% 30%;
+}
+#bywm figcaption{
+	text-align: center;
+	margin: 0.5%;
+}
+#bywm p{
+	font-size: 30px;
+	padding: 3% 0px;
+}

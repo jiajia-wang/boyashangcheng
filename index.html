@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>boya首页</title>
+		<style type="text/css">
+	      *{
+	      	margin: 0;
+	      	padding: 0;
+	      }
+	      .wp{
+	      	width: 1000px;
+	      	margin: 0 auto;
+	      }
+	      .z{float:left;}
+	      .y{float: right;}
+	      .cl{clear: both;}
+	      .img{border:none;}
+	      #top{
+	      	width: 100%;
+	      	height: 58px;
+	      	position: fixed;
+	      	left: 0px;
+	      	top: 0px;
+	      	z-index: 9999;
+	      	background: #191d3a;
+	      }
+	      .nav{
+	      	width: 100%;
+	      	height: 58px;
+	      }
+	      .nav li{
+	      	list-style: none;
+	      	float: left;
+	      	line-height: 58px;
+	      	padding: 0 25px;
+	      	cursor: pointer;
+	      }
+	      .nav a{
+	      	color: white;
+	      	text-decoration: none;
+	      }
+	      .nav li.a,.nav li:hover{
+	      	background: url("images/02.jpg")repeat-x;
+	      }
+	      .o{
+	      	float: right;
+	      	margin-top: 15px;
+	      }
+	      #ad{
+	      	width: 100%;
+	      	margin-left: 0px;
+	      	margin-top:-5px;
+	      }
+	      
+	      .tu,.tu1,.tu2,.tu3{
+	      	width: 218px;
+	      	height: 130px;
+	      	float: left;
+	      	margin-left: 32px;
+	      }
+	      .p1,.p2{
+	      	text-align: center;
+	      }
+	      .p2{
+	      	font-size: 10px;
+	      	margin-top:9px;
+	      	/*padding-right: 5px;*/
+	        background: url(images/sanjiaoxing.png) no-repeat right center;
+	      }
+	      .p2 a{
+	      	text-decoration: none;
+	      	color: green;
+	      }
+	      /*.p2 img{
+	      	margin-left:10px;
+	      	margin-top:-1px;
+	      }*/
+	      .x1,.x2,.x3{
+	      	height: 12px;
+	      	
+	      }
+	      .x1,.x3{
+	      	width: 474px;
+	      	
+	
+	      }
+	      .x1 hr{
+	      	color: #dbele7;
+	      	margin-top: 10px;
+	      	margin-left:5px
+	      }
+	      .x3 hr{
+	      	color: #dbele7;
+	      	margin-top: 0px;
+	      	margin-left: 46px;
+	      }
+	      .x2{
+	      	width: 63px;
+	      	margin-left: 21px;
+	      }
+	      #nei{
+	      	background: url(images/indexmainbg.jpg);
+	      }
+	      .left{
+	      	width: 50%;
+	      	height: 310px;
+	      	background: url(images/bynewsbg.jpg);
+	      	position: relative;
+	      }
+	      .left .more{
+	      	position: absolute;
+	      	top: 39px;
+	      	left: 213px;
+	      }
+	      .left ul{
+	      display: block;
+	      list-style: none;
+	      position: absolute;
+	      margin-top: 128px;
+	      line-height: 35px;
+	      }
+	      .left ul  li a{
+	      	text-decoration: none;
+	      	color: black;
+	      }
+	      .left ul li a:hover{
+	      	color: lightpink;
+	      }
+	      .left ul hr{
+	      	width: 495px;
+	      	color: #ecebe8;
+	      }
+	      .left ul span{
+	      	font-size: 15px;
+	      	color: gainsboro;
+	      	margin-right: 5px;
+	      }
+	      .right{
+	      	width: 500px;
+	      	height: 310px;
+	      	position: relative;
+	      	background: url(images/byhrbg3.jpg);
+	      	
+	      }
+	      .right .more1{
+	      	position: absolute;
+	      	top: 47px;
+	      	left: 184px;
+	      }
+	      .right ul{
+	      	display: block;
+	      	color: white;
+	      	list-style: none;
+	      	position: absolute;
+	      
+	      }
+	      .right ul li{
+	      	font-size: 12px;
+	      	line-height: 17px;
+	      }
+	      .right ul li a{
+	      	text-decoration: none;
+	      	color: white;
+	      }
+	      .right ul li a:hover{
+	      	color: lightsalmon;
+	      }
+	      .right ul li hr{
+	      	color: #6fdea3;
+	      	width: 300px;
+	      	margin-left: 21px;
+	      }
+	      .right .c{
+	      	margin-top: 10px;
+	      }
+	      .right .a{
+	      	margin-left: 93px;
+	      	margin-top: 46px;
+	      }
+	      .right .a p{
+	      	font-size: 10px;
+	      	padding-top: 7px;
+	      }
+	      .right h2{
+	      	font-size: 20px;
+	      }
+	      .right h5{
+	      	font-size: 13px;
+	      	line-height: 0px;
+	      }
+	      .right .b{
+	      	margin-left: 20px;
+	      	margin-top: 22px;
+	      }
+	      .tu4{
+	      
+	      }
+	     #footer{
+	     	height: 82px;
+	     	background: url(images/03.jpg)repeat-x;
+	     	position: relative;
+	     }
+	     #footer p{
+	     	color: white;
+	     }
+	     #footer .l{
+	     	margin-top: 29px;
+	     	
+	     }
+	     #footer .l p{
+	     	font-size: 13px;
+	     }
+	     #footer .r{
+	     	margin-top: 29px;
+	     	
+	     }
+	     #footer .r p{
+	     	margin-right: 45px;
+	     	font-size: 13px;
+	     }
+	     .#footer .r .x{
+	     	margin-right: 40px;
+	     	font-size: 14px;
+	     }
+	     #footer .r img{
+	     	width: 32px;
+	     	height: 40px;
+	     	margin-top: -26px;
+	     	margin-left: 45px;
+	     }
+	     .k{
+	     	float: right;
+	      	margin-top: 15px;
+	     }
+	     .g{
+	     	width: 70px;
+	     	height: 30px;
+	     	background: #c7d6e5;
+	     	position: absolute;
+	     	right: 292px;
+	     	bottom: 66px;
+	     	border-radius: 5px;
+	     	text-align: center;
+	     	line-height: 30px;
+	     }
+	     #footer a{
+	     	color: ghostwhite;
+	     }
+	     #guanyu{
+	     	background: url(images/gy1.jpg) no-repeat center;
+	     	width: 1100px;
+	     	height: 500px;
+	     	position: relative;
+	     	margin-top: 75px;
+	     	margin-left: 398px;
+	     	/*background-attachment: fixed;*/
+	     }
+	     #guanyu .wp{
+	     	position: absolute;
+				left: 0px;
+				top: 0px;
+				width: 100%;
+				height: 100%;
+				background-color: rgba(0,0,0,0.2);
+				
+	     }
+	     #guanyu .gy-tu{
+	     	position: relative;
+	     	left: 64px;
+	     	top: 76px;
+	     	width: 500px;
+	     }
+	     #guanyu .gy-xin{
+	     	position: relative;
+	     	right: 78px;
+	     	top: 151px;
+	     	width: 500px;
+	     }
+	     #guanyu .gy-xin h3{
+	     	padding-bottom: 15px;
+	     	color: #fff;
+	     	text-align: center;
+	     }
+	     #guanyu .gy-xin p{
+	     	font-size: 16px;
+	     	color: #FFFFFF;
+	     	text-indent: 2em;
+	     }
+	     #kefu{
+	     	width: 1100px;
+	     	height: 500px;
+	     	background: url(images/kefu.jpg) no-repeat center;
+	     	margin-left: 398px;
+	     	margin-top: 50px;
+	     	position: relative;
+	     	background-attachment: fixed;
+	     }
+	     #kefu table{
+	     	position: absolute;
+	     	left: 274px;
+	     	top: 125px;
+	     }
+	     #kefu h1{
+	     	text-align: center;
+	     	padding-top: 39px;
+	     	color: red;
+	     }
+	     #kefu .kf-t{
+	     	padding: 63px 50px 10px 60px;
+	     	background: url(images/kf1.png) top center no-repeat;
+	     }
+	     #kefu .kf-t1{
+	     	padding: 63px 50px 10px 60px;
+	     	background: url(images/kf2.png) top center no-repeat;
+	     }
+	     #kefu .kf-t2{
+	     	padding: 63px 50px 10px 60px;
+	     	background: url(images/kf3.png) top center no-repeat;
+	     }
+	     #kefu .kf-x{
+	     	font-size: 30px;
+	     	font-style: italic;
+	     	color: lightcoral;
+	     }
+	     #touzi{
+	     	width: 1100px;
+	     	height: 500px;
+	     	margin: 50px auto;
+	     	background: lavender;
+	     	
+	     }
+	     #touzi h1{
+	     	padding: 10px 40px;
+	     	color: lightsalmon;
+	     }
+	     #touzi p{
+	     	padding: 3px 40px;
+	     }
+		</style>
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+		<link rel="stylesheet" type="text/css" href="js/swiper.min.js"/>
+	</head>
+	<body>
+		<div id="top">
+			<div class="wp">
+			<div class="z">
+				<img src="images/logo.png"/>
+			</div>
+			<div class="nav">
+				<ul>
+					<li class="a"><a href="#">首页</a></li>
+					<li><a href="byyouxi.html">博雅游戏</a></li>
+					<li><a href="byguanyu.html">关于我们</a></li>
+					<li><a href="bykefu.html">客服中心</a></li>
+					<li><a href="byxinwen.html">博雅新闻</a></li>
+					<li><a href="bytouzi.html">投资者关系</a></li>
+				</ul>
+				<img src="images/jrwm.png" class="o"/>
+			</div>
+            
+			</div>
+		</div>
+		<div class="cl"></div>
+		<!--<div id="ad">-->
+		<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+        	<img src="images/banner.jpg"/>
+        </div>
+        <div class="swiper-slide">
+        	<img src="images/ad1.jpg"/>
+        </div>
+        <div class="swiper-slide">
+        	<img src="images/ad2.jpg"/>
+        </div>
+        <div class="swiper-slide">
+        	<img src="images/ad4.jpg"/>
+        </div>
+    </div>
+    <!-- 如果需要分页器 -->
+    <div class="swiper-pagination swiper-pagination-white"></div>
+    
+    <!-- 如果需要导航按钮 -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    
+    <!-- 如果需要滚动条 -->
+   <!-- <div class="swiper-scrollbar"></div>-->
+</div>
+   <!--js加载-->
+<script src="js/swiper.min.js"></script>
+<script type="text/javascript">
+	 var mySwiper = new Swiper ('.swiper-container', {
+    loop: true,    //循环播放
+    autoplay:1000,
+    autoplayDisableOnInteraction:false,//继续轮播
+    speed:1000, //轮播速度
+    // 如果需要分页器
+    pagination: '.swiper-pagination',
+    paginationClickable:true, //分页能否被点击
+    // 如果需要前进后退按钮
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev'
+    
+    // 如果需要滚动条
+//  scrollbar: '.swiper-scrollbar',
+  })     
+</script><!--</div>-->
+		<br />
+		<br />
+		<br />
+		<div class="wp">
+		<div class="tu">
+			<img src="images/pro1.jpg" alt="" /><br />
+			<p class="p1">BPT宣传片</p>
+			<p class="p2"><a href="#">点击播放</a> </p>
+		</div>
+		<div class="tu1"><img src="images/pro2.jpg" alt="" /><br />
+		<p class="p1">博雅互动宣传视频</p>
+		<p class="p2"><a href="#">点击播放</a></p>
+		</div>
+		<div class="tu2"><img src="images/pro3.jpg" alt="" /><br />
+		<p class="p1">斗地主</p>
+		<p class="p2"><a href="#">LANDLORDS</a></p>
+		</div>
+		<div class="tu3"><img src="images/pro4.jpg" alt="" /><br />
+		<p class="p1">德州扑克</p>
+		<p class="p2"><a href="#">TEXAS HOLDEM POKER</a></p>
+		</div>
+		</div>
+		<br />
+		<br />
+		<br /><br /><br /><br /><br /><br /><br /><br />
+		
+		<div class="wp"><div id="xian">
+				<div class="x1 z"><hr /></div>
+				<div class="x2 z">
+					<img src="images/dian3.fw.png" alt="" />
+					<img src="images/dian4.fw.png" alt="" />
+					<img src="images/dian4.fw.png" alt="" />
+					<img src="images/dian4.fw.png" alt="" />
+				</div>
+				<div class="x3 y"><hr /></div>
+			</div>
+		</div>
+		<br /><br /><br /><br />
+		<div id="nei">
+		<div class="wp">
+			<div class="left z">
+				<div class="more">
+					<img src="images/more1.png"/>
+				</div>
+				<ul>
+					<li><span>09/28</span> <a href="#">2015博雅国际扑克大赛</a></li>
+					<hr />
+					<li><span>08/26</span> <a href="#">2015bpt博雅国际扑克大赛</a></li>
+					<hr />
+					<li><span>07/14</span> <a href="#">2015博雅国际扑克大赛</a></li>
+					<hr />
+					<li><span>06/12</span> <a href="#">2015博雅国际扑克大赛</a></li>
+				    <hr />
+				</ul>
+			</div>
+			<div class="right y">
+				<div class="more1">
+					<img src="images/more2.png"/>
+				</div>
+				<ul>
+					<li class="a"><h2>专场招聘</h2>
+						<p>BOYAA JOBS</p>
+				 </li>
+					<li class="b"><h5>专场招聘岗位：</h5></li>
+					<li class="b"><a href="#">PHP开发工程师</a></li>
+				    <li><hr /></li>
+					<li class="b"><a href="#">c++开发工程师</a></li>
+					<li><hr /></li>
+					<li class="b"><a href="#">web前端开发工程师</a></li>
+					<li><hr /></li>
+					<li class="b"><a href="#">大数据开发工程师</a></li>
+					<li>
+						<hr />
+					</li>
+				    
+				</ul>
+				
+			</div>
+			</div>
+			
+		</div>
+		<div class="cl"></div>
+		<div id="guanyu">
+			<div class="wp">
+			<div class="gy-tu z">
+				<img src="images/800.jpg"/>
+			</div>
+			<div class="gy-xin y">
+				<h3>关于我们</h3>
+				<p>
+					公司自成立以来，始终处于稳健高速的发展状态，在持续巩固国内市场的同时，积极拓展海外市场；博雅互动共有员工近400名，平均年龄在25岁。其中技术研发人员占80%，作为年轻的互联网企业，公司在迅速的发展壮大，更多的产品在不断研发，更多的业务在不断拓展，博雅互动正身处于互联网最有趣、最有前景的行业。
+				    博雅互动将依托现有的平台以及资源，整合产业价值链，开发更多的业务领域，成为一家立足社交网络应用的游戏公司，将公司产品覆盖到国外，努力开发更多具有国际化水平的业务应用，成为游戏行业的领跑者。
+				</p>
+			</div>
+			</div>
+		</div>
+		<div class="cl"></div>
+		<div id="kefu">
+			<h1>客服中心:</h1>
+			<table border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td class="kf-t">客服电话</td>
+					<td class="kf-x">400-633-1888</td>
+				</tr>
+				<tr>
+					<td class="kf-t1">在线客服</td>
+					<td class="kf-x">在线人工服务</td>
+				</tr>
+				<tr>
+					<td class="kf-t2">客服邮箱</td>
+					<td class="kf-x">kefu@boyaa.com</td>
+				</tr>
+			</table>
+		</div>
+		<div id="touzi">
+			<h1>投资者查询</h1>
+			<p>深圳总部</p>
+    		<p>地址：深圳市南山区中山园路1001号TCL产业园国际E城D3栋9B-C</p>
+			<p>邮编：518000</p>
+			<p>电邮：investor@boyaa.com</p>
+			<p>电话：86 755-8638 7078 </p>
+			<br /><br />
+			<p>香港办事处</p>
+			<p>地址：香港铜锣湾勿地臣街1号时代广场二座36楼
+			<br /><br />
+			<p>金通策略有限公司</p>
+			<p>地址：香港中环干诺道中88号南丰大厦9楼906室</p>
+			<p>电邮：ir@dlkadvisory.com</p>
+			<p>电话：(852) 2857-7101</p>
+			<p>传真：(852) 2857-7103</p>
+		</div>
+		<br />
+		<div id="footer">
+			<a href="#top"><div class="g">
+			<img src="images/top.png " alt="" />
+			<span>top</span>
+		</div></a>
+			<div class="wp">
+			<div class="l z">
+				<p>网站地图 | 免费声明</p>
+			</div>	
+			<div class="r y">
+				<p >copyright &copy;2017-2020djfaoafdjlafgashdfaSdf
+			    </p>
+			    <img src="images/govIcon.gif" class="k" />
+			</div>
+			</div>
+		</div>
+	</body>
+</html>
